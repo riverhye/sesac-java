@@ -1,4 +1,4 @@
-package _04_class;
+package _04_class._01_class;
 
 import java.util.ArrayList;
 import java.util.Arrays;

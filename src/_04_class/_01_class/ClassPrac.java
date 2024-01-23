@@ -1,4 +1,4 @@
-package _04_class;
+package _04_class._01_class;
 
 import java.util.Scanner;
 
@@ -10,14 +10,15 @@ public class ClassPrac {
         int height = sc.nextInt();
         // 객체 생성 -> 메서드 호출
         int area = new Rectangle(width, height).getArea();
+
         System.out.println(area);
 
         sc.close();
     }
 
     static class Rectangle {
-        public int width;
-        public int height;
+        private int width;
+        private int height;
 
         public Rectangle(int width, int height) {
             this.width = width;
