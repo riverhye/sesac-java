@@ -1,4 +1,4 @@
-package _04_class._04_final;
+package _04_class._03_final;
 
 import java.util.Scanner;
 

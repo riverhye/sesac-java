@@ -1,4 +1,4 @@
-package _04_class._04_final;
+package _04_class._03_final;
 
 public class Student {
     // Ver1. 필드 선언 시 초기화
