@@ -7,9 +7,9 @@ public class VehicleBicycle extends Vehicle {
         return hasOwnSeoul;
     }
     public VehicleBicycle(String licenseType, String model, int year, String color) {
-        setLicenseType("class C");
-        setModel("따릉이");
-        setColor("green");
-        setYear(2018);
+        setLicenseType(licenseType);
+        setModel(model);
+        setColor(color);
+        setYear(year);
     }
 }

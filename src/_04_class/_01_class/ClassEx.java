@@ -46,5 +46,4 @@ public class ClassEx {
         public String getName() {return name;}
         public int getAge() {return age;}
     }
-
 }
