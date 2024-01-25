@@ -30,4 +30,8 @@ public class Vehicle {
     public void setColor(String color) {
         this.color = color;
     }
+
+    public String toString() {
+        return ("model = " + model + "licenseType = " + licenseType + "year = " + year + "color = " + color);
+    }
 }

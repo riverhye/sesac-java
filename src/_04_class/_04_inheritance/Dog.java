@@ -1,10 +1,8 @@
 package _04_class._04_inheritance;
 
 public class Dog extends Animal {
-    public Dog(String species, String name, int age) {
-        setSpecies(species);
-        setName(name);
-        setAge(age);
+    public Dog(String name, int age) {
+        super("강아지", name, age);
     }
 
     @Override
