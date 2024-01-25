@@ -1,4 +1,4 @@
-package _04_class._04_inheritance;
+package _04_class._04_inheritance.ex2;
 
 public class VehicleCar extends Vehicle {
     private boolean converible;

@@ -1,4 +1,4 @@
-package _04_class._04_inheritance;
+package _04_class._04_inheritance.ex1;
 
 class Cat extends Animal {
     public Cat(String name, int age) {

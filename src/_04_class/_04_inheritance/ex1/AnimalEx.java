@@ -1,6 +1,4 @@
-package _04_class._04_inheritance;
-
-import java.util.Scanner;
+package _04_class._04_inheritance.ex1;
 
 public class AnimalEx {
     public static void main(String[] args) {
