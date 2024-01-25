@@ -22,9 +22,14 @@ public class VehiclesEx {
         // 배열 순회 출력
         for (Vehicle vehicle:vehicles) {
             vehicle.move();
+            System.out.println(vehicle instanceof  Flyable);
             if(vehicle instanceof Flyable) {
-                ((Flyable) vehicle).fly();
+                ((Flyable) vehicle).fly(); // 형변환(캐스팅)으로 fly 실행
             }
         }
+
+        // 캐스팅은 up(상위 클래스로) down(하위 클래스로)이 존재
+        // DownCasting 상위 -> 하위 : () 명시
+        // UpCasting 하위 -> 상위 : 생략 가능
     }
 }
