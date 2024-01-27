@@ -1,4 +1,4 @@
-package _04_class._07_wrapper;
+package _05_wrapper;
 
 // Wrapper 객체 내부 값 비교 시 기본 연산자 사용 불가(==,!=)
 // -> 대신 equals()로 비교

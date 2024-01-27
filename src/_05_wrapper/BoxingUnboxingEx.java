@@ -1,4 +1,4 @@
-package _04_class._07_wrapper;
+package _05_wrapper;
 
 public class BoxingUnboxingEx {
     public static void main(String[] args) {

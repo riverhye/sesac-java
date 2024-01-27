@@ -1,4 +1,4 @@
-package _04_class._08_generic;
+package _06_generic;
 // Number 클래스 : 자바의 모든 숫자 형식의 부모 클래스 (정수, 실수, ...)
 
 // 제네릭 제한 : Number 상속한 클래스만 허용
