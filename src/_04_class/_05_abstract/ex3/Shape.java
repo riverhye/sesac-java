@@ -6,7 +6,7 @@ public abstract class Shape {
     // 추상 메서드 : 강제성 있음
     abstract public void calculateArea();
 
-    void getColor() {
+    public void getColor() {
         System.out.println("도형 색상: " + color);
     }
 
